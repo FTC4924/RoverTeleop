@@ -35,6 +35,7 @@ Red to REF (2nd pin from power-jack side, 2 open pins away from the motor board)
 Brown/Signal to Serial input/RX - not used (tried & failed to read all servos via MBus. Apparently, Arduino doesn’t support the inverted serial signal)
 Servo Channels: R/C receiver into Arduino/Leonardo: Put male end of 4 wires into Pins 0,1,2,3 (7 is also an interrupt, but used by motor board). Put female ends of above wires into receiver, Channels 1,2,3,4.  -for example, orange male end into Leonardo pin 0, orange female end into goBILDA element receiver channel 1, signal pin.
 Servos: output will come from Leonardo - used pins 4 & 5 for channels 3 & 4.  Channels 1 & 2 go to the motor shield via programming.
+![Wiring example of the Runt Rover on Leonardo version of Arduino](https://github.com/FTC4924/RuntRoverArduino/assets/14141802/9503fe8a-d3f1-4769-b712-962cb804e6cd)
 
 
 Docs on pins available: https://www.partsnotincluded.com/how-to-use-an-rc-controller-with-an-arduino/
